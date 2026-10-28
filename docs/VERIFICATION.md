@@ -10,6 +10,7 @@
 | 运行设备 | CPU，`XLA_FLAGS=--xla_force_host_platform_device_count=2` |
 | Python 3.11 语法检查 | 102 个 Python 文件通过 |
 | JSON / TOML 解析 | 通过 |
+| 打包 | source distribution 与 wheel 构建通过（使用 PyPI 镜像） |
 | 训练 CLI | `scripts/train.py pi05_piper_banana_training_rtc_lora --help` 正常；确认路径覆盖参数可用 |
 | 发布内容 | 无数据、权重、checkpoint、统计资产、日志、缓存或环境目录 |
 
@@ -17,4 +18,4 @@
 
 验证覆盖小模型 flow loss、JIT 训练反向传播、冻结策略、双学习率优化器、逐 action 时间条件、硬前缀采样、padding 隔离、episode 划分、验证聚合、异步队列和双虚拟 CPU 设备上的 checkpoint 恢复。
 
-本次没有重新训练完整 π0.5、执行 H20 GPU smoke 或操作机器人。首次 wheel 构建尝试因源机器访问 PyPI 的 TLS 连接失败而中止；依赖已存在的环境中，源码回归测试通过。GitHub Actions 提供从锁文件安装依赖和运行同一测试套件的流程。
+本次没有重新训练完整 π0.5、执行 H20 GPU smoke 或操作机器人。首次构建因源机器访问 PyPI 的 TLS 连接失败而中止，切换 PyPI 镜像后 source distribution 与 wheel 均构建成功。GitHub Actions 提供从锁文件安装依赖和运行同一测试套件的流程。
