@@ -1,0 +1,71 @@
+{
+  "dataset_root": "/home/ubuntu/Data/banana",
+  "source": "/home/ubuntu/Data/banana/splits/manifest.json",
+  "source_sha256": "054e5c3e11b5a5864c4a350add46b486ad93b0b182cbbab11b3bfacd187ccda5",
+  "interpretation": "Explicit user-provided train/validation partition. Source files unchanged.",
+  "train": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50
+  ],
+  "validation": [
+    7,
+    14,
+    21,
+    28,
+    35,
+    42
+  ],
+  "counts": {
+    "train": {
+      "episodes": 45,
+      "frames": 24413
+    },
+    "validation": {
+      "episodes": 6,
+      "frames": 3443
+    }
+  }
+}

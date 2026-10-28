@@ -1,0 +1,252 @@
+[
+  {
+    "path": ".gitattributes",
+    "status": "added",
+    "sha256": "9156dc9dd88b241210cb385f98355429734f4726cc299feb31e15a0fc5d899c7"
+  },
+  {
+    "path": ".gitignore",
+    "status": "modified",
+    "sha256": "c2fc2f397deb9347c08725b753dfe5475a16c811caeae37ea989826a44acc949"
+  },
+  {
+    "path": "README.md",
+    "status": "modified",
+    "sha256": "0f33bf2766c82a694f611f74c356119d6290dbf940a860f204af1b935f67cb9b"
+  },
+  {
+    "path": "TRAINING_RTC.md",
+    "status": "added",
+    "sha256": "28d29871ceb5f94e33be918d8abd9d93c5f30e4635d399d8398c822bcfa1e072"
+  },
+  {
+    "path": "UPSTREAM.json",
+    "status": "added",
+    "sha256": "6fec1d6180a2d047cfc0cacc7acece9b5ef7a09d1895f8b527b5dcc6d6e3d72c"
+  },
+  {
+    "path": "configs/banana_train_validation.json",
+    "status": "added",
+    "sha256": "09e1f89ef3d9abaa8be37df54fed7cb4e54345884976ccb7e3a054d7676f2f8e"
+  },
+  {
+    "path": "docs/training_rtc_full_h20.md",
+    "status": "added",
+    "sha256": "c8fd513b4e8562d87d8bc78c9ed082051f0d400bbd051fd6c1d15c1f915ce079"
+  },
+  {
+    "path": "docs/training_rtc_review.md",
+    "status": "added",
+    "sha256": "590da62b3ddd7ff0f1aab3f46eb6ace32fef8af3597e3950eaf93fa4c976d603"
+  },
+  {
+    "path": "packages/openpi-client/src/openpi_client/rtc_controller.py",
+    "status": "added",
+    "sha256": "435b469a3d2b941b5b46ab48ea566aceaef48e761c61ad0c94ca8d02dd49360d"
+  },
+  {
+    "path": "packages/openpi-client/src/openpi_client/rtc_queue.py",
+    "status": "added",
+    "sha256": "369cb78d72d7d8d381bd6b34daa0536c62db4a1fd3cd8f8b4b0454051a8cb88b"
+  },
+  {
+    "path": "scripts/compute_norm_stats.py",
+    "status": "modified",
+    "sha256": "7526a4d378c237c357c068275e53c86e0cfb52dba1a1f16028b99a1b97ce0547"
+  },
+  {
+    "path": "scripts/compute_rtc_norm_stats.py",
+    "status": "added",
+    "sha256": "5a8b3452dc606d49b974450c99a361956da8184eba22176f1ac00369ba8dc0e0"
+  },
+  {
+    "path": "scripts/eval_training_rtc.py",
+    "status": "added",
+    "sha256": "76e30400340b8dc13000c4a53f7242e7e968a039f497f46a9dc098e9198237a2"
+  },
+  {
+    "path": "scripts/inspect_rtc_parameters.py",
+    "status": "added",
+    "sha256": "a4d217e2a8491ec96fe9e8d44bbac7e3c1fd1bbc8fa458d8182ad5cbe313bd13"
+  },
+  {
+    "path": "scripts/rtc_env.sh",
+    "status": "added",
+    "sha256": "8806f47e5ffc19e12d70717d35748b1768ea822791b1366ace73c8b69504b50b"
+  },
+  {
+    "path": "scripts/rtc_preflight.py",
+    "status": "added",
+    "sha256": "2b17db0c47511a9d95444db7e9861008d7fba3127ad8f9ac652490910cbe5f08"
+  },
+  {
+    "path": "scripts/serve_training_rtc.py",
+    "status": "added",
+    "sha256": "ca44abfb093224a28f648143ad863e37ced930ed5538fedb2090f3deb470bbb6"
+  },
+  {
+    "path": "scripts/train.py",
+    "status": "modified",
+    "sha256": "22b1bca1101fe70e462ef999e001f317730dfa03cd4a5139e1b10c5ae751230f"
+  },
+  {
+    "path": "scripts/verify_rtc.sh",
+    "status": "added",
+    "sha256": "67454f2b901a78709c7ee88f165aad6bd85716d5dfeb3cd71e6f15a826073594"
+  },
+  {
+    "path": "src/openpi/models/gemma.py",
+    "status": "modified",
+    "sha256": "0ba6d9c5398232a3ff5267418c5f9cf94ecf9bf54071e679f2140162f326996e"
+  },
+  {
+    "path": "src/openpi/models/model.py",
+    "status": "modified",
+    "sha256": "da4504f413084ca1ee68e527bef3f8751c8d80c0bfc1a2b3d53fb3f5d110f433"
+  },
+  {
+    "path": "src/openpi/models/pi0.py",
+    "status": "modified",
+    "sha256": "a308163edd83d9b18810b33a309a3602e150d692209411cce2adfb6ca8e84021"
+  },
+  {
+    "path": "src/openpi/models/pi0_config.py",
+    "status": "modified",
+    "sha256": "1feb0282b8f0528214700cede6f5fe5726bb22581d25a4f69af46845450bbf61"
+  },
+  {
+    "path": "src/openpi/models/training_rtc.py",
+    "status": "added",
+    "sha256": "662fd6f42bed964482a3f727cdccb43aaec9760668cbf51e79e2489b09a2ec36"
+  },
+  {
+    "path": "src/openpi/models_pytorch/pi0_pytorch.py",
+    "status": "modified",
+    "sha256": "7bc9126857231efe231aeb2cbbf16eec7b3841a29c03f857d164ef8bc6a49da4"
+  },
+  {
+    "path": "src/openpi/policies/piper_policy.py",
+    "status": "added",
+    "sha256": "90bd6526a00608ad8fd265da6d88891fcdbe78e83179e102051b08b48ae549cc"
+  },
+  {
+    "path": "src/openpi/policies/policy_config.py",
+    "status": "modified",
+    "sha256": "5cb5cb1e70c42d4ee4b23da9bd1fef96673f38aa4f43b56a9d41a9afc015685a"
+  },
+  {
+    "path": "src/openpi/policies/rtc_policy.py",
+    "status": "added",
+    "sha256": "0dfc1de0143737e14e4f2611d1d9946efdf0bc5f22f769c0a1650a3eee1d3380"
+  },
+  {
+    "path": "src/openpi/serving/websocket_policy_server.py",
+    "status": "modified",
+    "sha256": "92a037e6d5bde54c2b13ac4ce7278c721ebd7a3ccfd5c441701842161cd03f65"
+  },
+  {
+    "path": "src/openpi/training/checkpoints.py",
+    "status": "modified",
+    "sha256": "f2ce15a49b89656051dee4f9dc6715d3786c5e912f0a189e97077fbd92ffdd16"
+  },
+  {
+    "path": "src/openpi/training/config.py",
+    "status": "modified",
+    "sha256": "df3f10faf688cea98da498699e6c63cb5dd13518cb4c8423503401355c59dd4d"
+  },
+  {
+    "path": "src/openpi/training/data_loader.py",
+    "status": "modified",
+    "sha256": "128b696aa50f794bf04af7202e7bb9075d4952f4dd74a0e56c78f9d5461f6258"
+  },
+  {
+    "path": "src/openpi/training/optimizer.py",
+    "status": "modified",
+    "sha256": "af9edcd77873009d31b303418331ecc4b95137508224cee01b101cf06798b893"
+  },
+  {
+    "path": "src/openpi/training/rtc_manifest.py",
+    "status": "added",
+    "sha256": "9effa4d94b5e8f7f51e413546f5b4a07dade46e1563002b9fe43780e9c9fcf9c"
+  },
+  {
+    "path": "src/openpi/training/rtc_norm_stats.py",
+    "status": "added",
+    "sha256": "aef467e7ccfd92bc3db728cda1eeae8f09f023266fb0555ffbb45a7081d155df"
+  },
+  {
+    "path": "src/openpi/training/rtc_validation.py",
+    "status": "added",
+    "sha256": "37c311da77bce8ffc898cc797b9c48b963e587b7282cd5cc0dd0fff681551ab2"
+  },
+  {
+    "path": "src/openpi/training/weight_loaders.py",
+    "status": "modified",
+    "sha256": "ca46dad4b0fbb0dc9c2af684fe4d02f281733ab336e0367c3a3b6453e0b92678"
+  },
+  {
+    "path": "tests/rtc/conftest.py",
+    "status": "added",
+    "sha256": "08e25027881b6fabcc7b21828a8a684618ba32edf226b905e78e170e37af784a"
+  },
+  {
+    "path": "tests/rtc/test_checkpoint.py",
+    "status": "added",
+    "sha256": "ca88346ffb5f57c9485b75c99c0952795849ebbab2cc0f56b5c47a6695f572d5"
+  },
+  {
+    "path": "tests/rtc/test_controller.py",
+    "status": "added",
+    "sha256": "8b29d2ab6f85e82a24167459ea65e31b3aa6e48b4e4d1934d61e0e6c61ad06bf"
+  },
+  {
+    "path": "tests/rtc/test_explicit_split.py",
+    "status": "added",
+    "sha256": "15d4ac8c3714c961db61ba72cf09c8fb24e3d15ffe43988fd510663f2704df4b"
+  },
+  {
+    "path": "tests/rtc/test_full_finetune.py",
+    "status": "added",
+    "sha256": "90cf2782a0600a51783b58aa7123b0e89838720b8d9b25c6aea657ba5c873f93"
+  },
+  {
+    "path": "tests/rtc/test_manifest.py",
+    "status": "added",
+    "sha256": "56f0c5d68d4863ade5672dbb7c7d41db05380f52abb0e444f0c7e9ff8e0e6599"
+  },
+  {
+    "path": "tests/rtc/test_math.py",
+    "status": "added",
+    "sha256": "4d86cd4fb241749f5ce118085e6fc79d0862f72caafa9b812becc8ea5f24173e"
+  },
+  {
+    "path": "tests/rtc/test_model.py",
+    "status": "added",
+    "sha256": "5c26c9ca987d1445082ca1c39b17078d0eec7c36bc40aefab4e9de15670ac69a"
+  },
+  {
+    "path": "tests/rtc/test_norm_stats.py",
+    "status": "added",
+    "sha256": "b4a74eff6cc84b3111e108fbe05c96c5b7038fae69e628e11c5fdcaa50393dd0"
+  },
+  {
+    "path": "tests/rtc/test_policy.py",
+    "status": "added",
+    "sha256": "2d15337444fb8012a610bb53a48a37b99a411027f26eb795a94255697a5a3a63"
+  },
+  {
+    "path": "tests/rtc/test_pretrain_audit.py",
+    "status": "added",
+    "sha256": "5561e4def1ff39262764fd184f1748f9ad25bdcf976a05b5a2d6003cae8af039"
+  },
+  {
+    "path": "tests/rtc/test_queue.py",
+    "status": "added",
+    "sha256": "d7fdad5f7a597b7410c5bd1a0b9a157cffbe4737d1e3c368f0be69b550564e3d"
+  },
+  {
+    "path": "tests/rtc/test_validation.py",
+    "status": "added",
+    "sha256": "6f2eb34a3a0dafe82379ca01cdb076f58c016c4d78183b53bad61826b1e5280f"
+  }
+]

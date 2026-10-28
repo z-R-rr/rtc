@@ -1,0 +1,25 @@
+{
+  "openpi": {
+    "repository": "https://github.com/Physical-Intelligence/openpi",
+    "commit": "215abfb217dbac7d5f1273282331b9b1866c0479",
+    "source_archive": "provenance/openpi-upstream.tar.gz",
+    "archive_sha256": "20fc377546b741bb31d1e12aa4003e6e6a54fa0ee3c7b7d8b438157cffb3c683",
+    "archive_note": "Original source archive was not included in this code-only extraction."
+  },
+  "rtc_algorithm": {
+    "repository": "https://github.com/Physical-Intelligence/real-time-chunking-kinetix",
+    "commit": "9296f31d62d5bfeb5779dcb2f9bcf71ca37f448b"
+  },
+  "piper_adapter": "Adapted from the existing local Piper input/output mapping; independent copy.",
+  "scope": "JAX pi0.5, delta actions, training-time hard-prefix RTC; no weights or datasets copied.",
+  "extraction": {
+    "date": "2026-10-28",
+    "source_directory": "openpi-training-rtc",
+    "upstream_namespace": "openpi",
+    "changes": [
+      "Code-only extraction; no datasets, normalization assets, checkpoints, logs, or caches",
+      "Portable default input paths under ./data",
+      "Independent README and CI; retained upstream licenses and original algorithm"
+    ]
+  }
+}
